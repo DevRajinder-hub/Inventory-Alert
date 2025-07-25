@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { shopify, Session } = require('../config/shopify');
+const { shopify, Session } = require('../../config/shopify');
 
 // GET /getproducts
 router.get('/getproducts', async (req, res) => {
